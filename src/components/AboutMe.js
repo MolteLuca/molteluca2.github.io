@@ -16,7 +16,7 @@ class AboutMe extends Component {
                         <h2 style={{'text-align': 'center'}} className="header">
                             Who Am I?
                         </h2>
-                        <p style={{'text-align': 'center', margin: '0 10%'}}
+                        <p style={{'text-align': 'justify', margin: '0 10%'}}
                            className="grey-text text-darken-3 lighten-3">
                             My name is Luca Molteni, I'm 25 years old, and I'm originally from Monza, Italy <br/>
                             I moved to the United States in 2017 to pursue my education at Penn State University and
@@ -42,7 +42,7 @@ class AboutMe extends Component {
                         <h2 style={{'text-align': 'center'}} className="header">
                             Who Do I Want To Be?
                         </h2>
-                        <p style={{'text-align': 'center', margin: '0 10%'}}
+                        <p style={{'text-align': 'justify', margin: '0 10%'}}
                            className="grey-text text-darken-3 lighten-3">
                             After my graduation, I'm considering the idea of pursuing a Master Degree at Penn State
                             University. Alternatively, I'd like to start my career as a Software/Web Developer and move

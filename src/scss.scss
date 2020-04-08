@@ -16,6 +16,7 @@ $white: #fff;
   :root {
     font-size: 15px;
   }
+
 }
 
 @media screen and (min-width: 820px) {
@@ -53,6 +54,8 @@ $white: #fff;
     font-size: 22px;
   }
 }
+
+
 
 html,
 body,
@@ -96,6 +99,30 @@ body,
       background: #898989;
       opacity: 0.9;
     }
+  }
+}
+
+div.verticalCarousel {
+  margin-left: 300px;
+  padding: 10px;
+  @media screen and (max-width: 993px){
+    margin-left: 0px;
+  }
+ }
+
+div.aboutMe {
+  margin-left: 260px;
+  padding: 10px;
+  @media screen and (max-width: 993px){
+    margin-left: 0px;
+  }
+}
+
+div.card {
+  margin-left: 260px;
+  padding: 10px;
+  @media screen and (max-width: 993px){
+    margin-left: 0px;
   }
 }
 

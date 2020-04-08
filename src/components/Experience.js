@@ -17,7 +17,7 @@ class CardExperience extends Component {
                             header={<CardTitle
                                 image="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg"
                                 reveal waves="light"/>}
-                            reveal={<p><Icon> check </Icon> Assisted to the entire software lifecycle, from gathering
+                            reveal={<p style={{'text-align' : 'justify'}}><Icon> check </Icon> Assisted to the entire software lifecycle, from gathering
                                 the information and
                                 designing the website, to the actual deployment of the web application. <br/>
                                 <Icon> check </Icon> Applied key concepts learned in class to the development of a real
@@ -46,7 +46,7 @@ class CardExperience extends Component {
                             header={<CardTitle
                                 image="https://am02bpbsu4-flywheel.netdna-ssl.com/wp-content/uploads/2013/07/logo.jpg"
                                 reveal waves="light"/>}
-                            reveal={<p><Icon> check </Icon> Helped college students to improve their academic
+                            reveal={<p style={{'text-align' : 'justify'}}><Icon> check </Icon> Helped college students to improve their academic
                                 performances in classes such as Mathematics, Physics and Computer Science. <br/>
                                 <Icon> check </Icon> Consistently communicated with my supervisors and filled out the
                                 paperwork regarding each tutoring session. <br/>
@@ -73,7 +73,7 @@ class CardExperience extends Component {
                                 image="https://torange.biz/photofx/173/8/digital-computer-internet-media-background-173473.jpg"
                                 reveal
                                 waves="light"/>}
-                            reveal={<p><Icon> check </Icon> Currently working in a group of five people to develop a
+                            reveal={<p style={{'text-align' : 'justify'}}><Icon> check </Icon> Currently working in a group of five people to develop a
                                 web-based application and
                                 an Android application which would allow users to reserve rooms and party areas at
                                 Paramount Sports Complex <br/>
@@ -97,7 +97,7 @@ class CardExperience extends Component {
                             header={<CardTitle
                                 image="https://cdn.dribbble.com/users/211312/screenshots/5571571/artboard_1-100.jpg"
                                 reveal waves="light"/>}
-                            reveal={<p><Icon> check </Icon> Used React and Materialize Css to create my personal
+                            reveal={<p style={{'text-align' : 'justify'}}><Icon> check </Icon> Used React and Materialize Css to create my personal
                                 portfolio</p>}
                             revealIcon={<Icon>more_vert</Icon>}
                             title="Personal Portfolio"

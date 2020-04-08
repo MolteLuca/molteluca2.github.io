@@ -11,9 +11,9 @@ function App() {
         <BrowserRouter>
             <Sidebar/>
             <Switch>
-                <Route exact path='/'> <div style={{padding: '10px', 'margin-left': '300px'}}><VerticalCarousel data={data}/> </div> </Route>
-                <Route path={'/aboutMe'}><div style={{padding: '10px', 'margin-left': '260px'}}> <AboutMe/> </div></Route>
-                <Route path={'/experience'}> <div style={{padding: '10px', 'margin-left': '260px'}}> <Card/> </div></Route>
+                <Route exact path='/'> <div className={"verticalCarousel toMove"} ><VerticalCarousel data={data}/> </div> </Route>
+                <Route path={'/aboutMe'}><div className={"aboutMe toMove"}> <AboutMe/> </div></Route>
+                <Route path={'/experience'}> <div className={"card toMove"} > <Card/> </div></Route>
             </Switch>
 
         </BrowserRouter>
