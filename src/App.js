@@ -4,16 +4,32 @@ import VerticalCarousel from "./components/VerticalCarousel";
 import './scss.scss'
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import AboutMe from "./components/AboutMe";
-import Card from "./components/Experience";
+import Experience from "./components/Experience";
+import NavBar from "./components/NavBar";
+
 
 function App() {
     return (
         <BrowserRouter>
+            <NavBar/>
             <Sidebar/>
             <Switch>
-                <Route exact path='/'> <div className={"verticalCarousel toMove"} ><VerticalCarousel data={data}/> </div> </Route>
-                <Route path={'/aboutMe'}><div className={"aboutMe toMove"}> <AboutMe/> </div></Route>
-                <Route path={'/experience'}> <div className={"card toMove"} > <Card/> </div></Route>
+
+                <Route exact path='/'>
+                    <div className={"verticalCarousel toMove"}>
+                        <VerticalCarousel data={data}/>
+                    </div>
+                </Route>
+                <Route path={'/aboutMe'}>
+                    <div className={"aboutMe toMove"}>
+                        <AboutMe/>
+                    </div>
+                </Route>
+                <Route path={'/experience'}>
+                    <div className={"experience toMove"}>
+                    <Experience/>
+                    </div>
+                </Route>
             </Switch>
 
         </BrowserRouter>

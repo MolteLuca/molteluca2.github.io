@@ -45,9 +45,12 @@ class VerticalCarousel extends Component {
             });
         }
     }
+
+
+
     render() {
         return (
-            <section className="wrapper" style={this.state.wrapperStyle}>
+            <section className="wrapper" style={this.state.wrapperStyle} onChange={this._changeSlideOverTime}>
                 <Selectors
                     data={this.props.data}
                     activeID={this.state.activeID}
@@ -98,11 +101,9 @@ class Panel extends Component {
 }
 
 class Selectors extends Component {
-    _handleClick(e) {
+    _handleClick() {
         if (this.props.id !== this.props.activeID) {
             this.props._changeActive(this.props.id);
-        } else {
-            return;
         }
     }
     render() {

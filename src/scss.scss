@@ -56,7 +56,6 @@ $white: #fff;
 }
 
 
-
 html,
 body,
 #app {
@@ -74,20 +73,24 @@ body,
 .selectors {
   position: absolute;
   top: 0;
-  left: 270px;
+  left: 290px;
   width: 30px;
   background: rgba(0, 0, 0, 0);
-  height: 100vh;
+  height: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 1;
+  @media screen and (max-width: 993px) {
+    display: none;
+  }
 
   .selector {
     border: 1px solid #898989;
+    border-radius: 50%;
     background: none;
-    width: 8px;
+    width: 25px;
     height: 25px;
     margin: 10px 0;
     opacity: 0.6;
@@ -103,26 +106,35 @@ body,
 }
 
 div.verticalCarousel {
-  margin-left: 300px;
+  margin-left: 260px;
   padding: 10px;
-  @media screen and (max-width: 993px){
-    margin-left: 0px;
+  @media screen and (max-width: 993px) {
+    margin-left:0px
   }
- }
+}
+
+
+
 
 div.aboutMe {
   margin-left: 260px;
   padding: 10px;
-  @media screen and (max-width: 993px){
+  @media screen and (max-width: 993px) {
     margin-left: 0px;
   }
 }
 
-div.card {
+div.experience {
   margin-left: 260px;
   padding: 10px;
-  @media screen and (max-width: 993px){
+  @media screen and (max-width: 993px) {
     margin-left: 0px;
+  }
+}
+
+nav.navbarItem {
+  @media screen and (min-width: 993px) {
+    display: none;
   }
 }
 
@@ -154,6 +166,9 @@ aside.panel {
   color: $white;
   box-shadow: 5px 0 25px 0 rgba(0, 0, 0, 0.3);
   transition: background 500ms ease-in-out;
+  @media screen and (max-width: 993px) {
+    width:100%;
+  }
 
   h2.panel-header,
   p.panel-info {

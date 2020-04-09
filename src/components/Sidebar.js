@@ -20,7 +20,7 @@ class Sidebar extends Component {
                 <SideNav id="SideNav-10" options={{draggable: true}} style={{width: '260px'}}>
                     <SideNavItem style={{height: '210px'}} subheader>
                         <img src={'../images/download.png'} className={'circle'}
-                             style={{height: '190px', width: '175px', margin: '10px'}} alt={'Picture of me'}/>
+                             style={{height: '190px', width: '175px', margin: '25px 10px'}} alt={'Picture of me'}/>
                     </SideNavItem>
 
                     <SideNavItem subheader>
@@ -50,6 +50,11 @@ class Sidebar extends Component {
                     <SideNavItem href={'https://github.com/MolteLuca'}>
                         <p style={{size: 'x-small', 'text-align': 'center'}}>
                             <SocialIcon url={'https://github.com/MolteLuca'}/>
+                        </p>
+                    </SideNavItem>
+                    <SideNavItem href={'https://www.linkedin.com/in/luca-molteni-29b543135/'}>
+                        <p style={{size: 'x-small', 'text-align': 'center'}}>
+                            <SocialIcon url={'https://www.linkedin.com/in/luca-molteni-29b543135/'}/>
                         </p>
                     </SideNavItem>
                     <SideNavItem href={'https://www.facebook.com/luca.molteni.798'}>

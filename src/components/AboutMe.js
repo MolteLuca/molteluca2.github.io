@@ -6,7 +6,10 @@ class AboutMe extends Component {
         return (
             <div>
                 <Parallax
-                    image={<img alt="" src="https://blog.scopus.com/sites/default/files/201603/PennState.png"/>}
+                    image={
+                        <img className={'largeImage'} alt="" src="https://dl.boxcloud.com/api/2.0/internal_files/34941753397/versions/34307943637/representations/png_paged_2048x2048/content/1.png?access_token=1!jpdIcD7nBYPLBBZ3Bx5tNCqV7FRw6bYDpCx0s9KhxFwqvInwpUkChbSTEIx_c5ZlSSI_zmsxYLVmtXaL4DFvfH9-tBSwVFQ4JDoWWn-N6c06NiFAcplcnMt5eziVkxZMNlyHSuhlQ9xdZFjfuwIhtD5Cc5MSbZGr46AAPgRt5BJ7CUZe_ls6p0NI8VjGAD7bXAfLFZXgzyS2POeBBxK2J8P0jSncJTGumbPqU1OxOrp1MOjIhsKJTYLlvDu9lbGOFav3745SYfMyiUWcdOugGyKyay50AeTVaj9IBGo6vN8DUrqWLUaAesfp3F8aUVN0i7Hj1WzRjlUCS6kQA2Ol5pl_o6WvS73d1Udr6LGftUj2DVJ9vhM6MRQw_QS1egyQdINA6lUGRWtiaQOT44gTG0JO7LE2uoidDRguWq8qwaGxeSRvnk--mS2dHefXA5hscEqzyw-ZwQMCIW6CK3e5fCfkn7ZquNaktbUXiLZorky3nG_UoODQ4GcXbGbVhiZarFhLan96XcX75azS0G82B7X4YcLchalHdl8-OIXpsPD-_ZofWYmcgn8T8LNBH13NkgJeQw6Yrf019LeNVNhl7NagijC14zt9iWd_cFbCejA7iE9KwX2Nm2MH8Bu2NQDoOLk.&shared_link=https%3A%2F%2Fpsu.app.box.com%2Fs%2Frh79vhu9fetxhq6mkvd135vz1qdj92z8&box_client_name=box-content-preview&box_client_version=2.37.0"/>
+                    }
+
                     options={{
                         responsiveThreshold: 0
                     }}
