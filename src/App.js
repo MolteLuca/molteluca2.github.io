@@ -14,24 +14,22 @@ function App() {
             <NavBar/>
             <Sidebar/>
             <Switch>
-
                 <Route exact path='/'>
-                    <div className={"verticalCarousel toMove"}>
+                    <div className={"verticalCarousel"}>
                         <VerticalCarousel data={data}/>
                     </div>
                 </Route>
                 <Route path={'/aboutMe'}>
-                    <div className={"aboutMe toMove"}>
+                    <div className={"aboutMe"}>
                         <AboutMe/>
                     </div>
                 </Route>
                 <Route path={'/experience'}>
-                    <div className={"experience toMove"}>
+                    <div className={"experience"}>
                     <Experience/>
                     </div>
                 </Route>
             </Switch>
-
         </BrowserRouter>
     );
 }
@@ -51,7 +49,7 @@ const data = [{
 }, {
     id: 2,
     header: 'Short-Term Goals',
-    body: 'Earning my Undergraduate Degree \n Starting a career as Software/Web Developer \n Move to a big city',
+    body: 'Earning my Undergraduate Degree \n Building my career as a Software/Web Developer \n',
     colour: '#231e2ceb',
     img: 'https://wallpaperaccess.com/full/123346.jpg'
 }];

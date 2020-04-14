@@ -17,7 +17,7 @@ class Sidebar extends Component {
         return (
 
             <div>
-                <SideNav id="SideNav-10" options={{draggable: true}} style={{width: '260px'}}>
+                <SideNav id="SideNav-10" options={{draggable: true}} style={{width: '260px', height: '100%'}}>
                     <SideNavItem style={{height: '210px'}} subheader>
                         <img src={'../images/download.png'} className={'circle'}
                              style={{height: '190px', width: '175px', margin: '25px 10px'}} alt={'Picture of me'}/>
@@ -63,11 +63,13 @@ class Sidebar extends Component {
                         </p>
                     </SideNavItem>
 
-                    <SideNavItem href={'https://www.instagram.com/luca_molte/'}>
+                    <SideNavItem href={'https://www.instagram.com/luca_molte/'} style={{'margin-bottom': '40px'}}>
                         <p style={{size: 'x-small', 'text-align': 'center'}}>
                             <SocialIcon url={'https://www.instagram.com/luca_molte/'}/>
                         </p>
                     </SideNavItem>
+
+                    <SideNavItem divider/>
 
                 </SideNav>
             </div>

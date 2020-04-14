@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Navbar, NavItem, Icon, SideNavItem} from "react-materialize";
+import {Navbar, NavItem, Icon} from "react-materialize";
 
 import {NavLink} from "react-router-dom";
 import {SocialIcon} from "react-social-icons";
@@ -26,7 +26,7 @@ class NavBar extends Component{
                     preventScrolling: true
                 }}
             >
-                <NavItem style={{height: '210px'}} subheader>
+                <NavItem style={{height: '210px'}} className={'noHover'}>
                     <img src={'../images/download.png'} className={'circle'}
                          style={{height: '190px', width: '175px', margin: '30px'}} alt={'Picture of me'}/>
                 </NavItem>
@@ -44,7 +44,7 @@ class NavBar extends Component{
                     </NavLink>
                 </NavItem>
 
-                <NavItem href="#!second">
+                <NavItem>
                     <NavLink to={'/experience'}>
                         <p style={{'text-align': 'center', color:'black'}}>Experience</p>
                     </NavLink>
