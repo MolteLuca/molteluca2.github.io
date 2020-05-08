@@ -139,6 +139,7 @@ div.smallImage {
 
 div.aboutMe {
   margin-left: 260px;
+
   @media screen and (max-width: 993px) {
     margin-left: 0px;
   }
@@ -146,6 +147,10 @@ div.aboutMe {
 
 div.experience {
   margin-left: 260px;
+  .card.medium {
+    border-bottom-left-radius : 5%;
+    border-bottom-right-radius : 5%
+  }
   @media screen and (max-width: 993px) {
     margin-left: 0px;
   }
@@ -179,7 +184,7 @@ aside.panel2 {
 
 aside.panel {
   text-align: center;
-  width: 40vw;
+  width: 35vw;
   height: 100%;
   opacity: 0.9;
   color: $white;

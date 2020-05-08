@@ -32,47 +32,47 @@ class NavBar extends Component{
                 </NavItem>
 
                 <NavItem subheader>
-                    <p style={{'text-align': 'center', 'font-size': '20px', color: 'black'}}> Luca Molteni </p>
+                    <p style={{textAlign: 'center', 'font-size': '20px', color: 'black'}}> Luca Molteni </p>
                 </NavItem>
 
                 <NavItem>
-                    <NavLink to={'/'}><p style={{'text-align': 'center', color: 'black'}}>Home</p></NavLink>
+                    <NavLink to={'/'}><p style={{textAlign: 'center', color: 'black'}}>Home</p></NavLink>
                 </NavItem>
 
                 <NavItem>
-                    <NavLink to={'/aboutMe'}><p style={{'text-align': 'center', color: 'black'}}>About Me</p>
+                    <NavLink to={'/aboutMe'}><p style={{textAlign: 'center', color: 'black'}}>About Me</p>
                     </NavLink>
                 </NavItem>
 
                 <NavItem>
                     <NavLink to={'/experience'}>
-                        <p style={{'text-align': 'center', color:'black'}}>Experience</p>
+                        <p style={{textAlign: 'center', color:'black'}}>Experience</p>
                     </NavLink>
                 </NavItem>
 
                 <NavItem divider/>
 
                 <NavItem subheader>
-                    <p style={{'text-align': 'center'}}>Follow me</p>
+                    <p style={{textAlign: 'center'}}>Follow me</p>
                 </NavItem>
                 <NavItem href={'https://github.com/MolteLuca'}>
-                    <p style={{size: 'x-small', 'text-align': 'center'}}>
+                    <p style={{size: 'x-small', textAlign: 'center'}}>
                         <SocialIcon url={'https://github.com/MolteLuca'}/>
                     </p>
                 </NavItem>
                 <NavItem href={'https://www.linkedin.com/in/luca-molteni-29b543135/'}>
-                    <p style={{size: 'x-small', 'text-align': 'center'}}>
+                    <p style={{size: 'x-small', textAlign: 'center'}}>
                         <SocialIcon url={'https://www.linkedin.com/in/luca-molteni-29b543135/'}/>
                     </p>
                 </NavItem>
                 <NavItem href={'https://www.facebook.com/luca.molteni.798'}>
-                    <p style={{size: 'x-small', 'text-align': 'center'}}>
+                    <p style={{size: 'x-small', textAlign: 'center'}}>
                         <SocialIcon url={'https://www.facebook.com/luca.molteni.798'}/>
                     </p>
                 </NavItem>
 
                 <NavItem href={'https://www.instagram.com/luca_molte/'}>
-                    <p style={{size: 'x-small', 'text-align': 'center'}}>
+                    <p style={{size: 'x-small', textAlign: 'center'}}>
                         <SocialIcon url={'https://www.instagram.com/luca_molte/'}/>
                     </p>
                 </NavItem>

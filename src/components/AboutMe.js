@@ -59,9 +59,11 @@ class AboutMe extends Component {
                         </h2>
                         <p style={{'text-align': 'justify', margin: '0 10%'}}
                            className="grey-text text-darken-3 lighten-3">
-                            After my graduation, I'm considering pursuing graduate study in Management and Organizational
-                            Leadership. Concurrently, I'd like to being my career as a Software/Web Developer. My
-                            ultimate dream is to open an authentic Italian restaurant in Miami and
+                            After my graduation, I'm considering pursuing graduate study in Management and
+                            Organizational Leadership to supplement my knowledge and achieve my goal of becoming a
+                            leader in the development and provision of creative and personalized web interfaces.
+                            Concurrently, I'm looking to begin my career as a Web Developer.
+                            My ultimate dream is to open an authentic Italian restaurant in Miami and
                             move there for the rest of my life.
 
                         </p>

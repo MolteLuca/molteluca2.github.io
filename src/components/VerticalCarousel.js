@@ -17,6 +17,7 @@ class VerticalCarousel extends Component {
             }
         };
     }
+
     _changeActive(id) {
         this.setState({
             activeID: id,
@@ -28,8 +29,11 @@ class VerticalCarousel extends Component {
             }
         });
     }
+
+
+
     _buttonColour() {
-        if(!this.state.buttonHover){
+        if (!this.state.buttonHover) {
             this.setState({
                 buttonHover: true,
                 buttonStyle: {
@@ -45,7 +49,6 @@ class VerticalCarousel extends Component {
             });
         }
     }
-
 
 
     render() {
@@ -67,6 +70,7 @@ class VerticalCarousel extends Component {
         );
     }
 }
+
 class Panel extends Component {
 
     downloadResume = () => {
@@ -106,6 +110,7 @@ class Selectors extends Component {
             this.props._changeActive(this.props.id);
         }
     }
+
     render() {
         return (
             <div className="selectors">
@@ -122,6 +127,7 @@ class Selectors extends Component {
         );
     }
 }
+
 class Selector extends Component {
     render() {
         let componentClass = 'selector';
@@ -133,5 +139,6 @@ class Selector extends Component {
         );
     }
 }
+
 export default VerticalCarousel
 
